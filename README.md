@@ -48,7 +48,7 @@ public class Translator {
 		
 			while (finished == false)
 			{ 
-				System.out.println("Do you want to keep playing? (Y/N)");
+				System.out.println("Would you like to translate something else? (Y/N)");
 				userchoice = new Scanner(System.in);
 				decision = userchoice.next();
 				decision = decision.toLowerCase();
